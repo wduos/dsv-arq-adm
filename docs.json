@@ -25,7 +25,9 @@
         "group": "Principal",
         "icon": "layers",
         "expanded": true,
-        "pages": []
+        "pages": [
+          "dsv-araquari"
+        ]
       }
     ]
   },
