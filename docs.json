@@ -1,14 +1,14 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
-  "name": "Product Guide",
-  "description": "Step-by-step guides for every product—platform setup, analytics, and integrations in one place.",
+  "name": "Araquari",
+  "description": "Procedimentos administrativos, passo a passo",
   "colors": {
-    "primary": "#166E3F",
-    "light": "#26BD6C",
-    "dark": "#166E3F"
+    "primary": "#51a1eb",
+    "light": "#51a1eb",
+    "dark": "#00386c"
   },
-  "favicon": "/favicon.ico",
+  "favicon": "https://www.freelogovectors.net/wp-content/uploads/2019/10/dsv-logo.png",
   "icons": {
     "library": "lucide"
   },
@@ -19,66 +19,19 @@
     "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
   },
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Home",
-          "icon": "house",
-          "href": "/"
-        },
-        {
-          "anchor": "Changelog",
-          "icon": "scroll-text",
-          "href": "https://www.mintlify.com/docs/changelog"
-        },
-        {
-          "anchor": "Help",
-          "icon": "life-buoy",
-          "href": "https://www.mintlify.com/docs/contact-support"
-        }
-      ]
-    },
     "directory": "card",
     "groups": [
       {
-        "group": "Platform",
+        "group": "Principal",
         "icon": "layers",
         "expanded": true,
-        "pages": [
-          "platform/quickstart",
-          "platform/key-concepts",
-          "platform/configuration/settings",
-          "platform/configuration/user-management",
-          "platform/administration/roles-permissions"
-        ]
-      },
-      {
-        "group": "Analytics",
-        "icon": "chart-bar",
-        "expanded": true,
-        "pages": [
-          "analytics/quickstart",
-          "analytics/connect-data",
-          "analytics/dashboards/create-dashboard",
-          "analytics/reports/scheduled-reports"
-        ]
-      },
-      {
-        "group": "Integrations",
-        "icon": "plug",
-        "expanded": true,
-        "pages": [
-          "integrations/quickstart",
-          "integrations/authentication",
-          "integrations/connectors/crm",
-          "integrations/webhooks/configure"
-        ]
+        "pages": []
       }
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "https://upload.wikimedia.org/wikipedia/commons/8/84/DSV_Logo.svg",
+    "dark": "https://upload.wikimedia.org/wikipedia/commons/8/84/DSV_Logo.svg"
   },
   "navbar": {
     "links": [],
@@ -88,10 +41,9 @@
       "href": "https://dashboard.mintlify.com"
     }
   },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/yourcompany",
-      "linkedin": "https://linkedin.com/company/yourcompany"
+  "background": {
+    "color": {
+      "dark": "#242424"
     }
   }
 }
