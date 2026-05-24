@@ -22,11 +22,16 @@
     "directory": "card",
     "groups": [
       {
-        "group": "Principal",
+        "group": "Home",
         "icon": "layers",
         "expanded": true,
         "pages": [
-          "index.mdx"
+          {
+            "group": "DSV",
+            "pages": [
+              "index.mdx"
+            ]
+          }
         ]
       }
     ]
