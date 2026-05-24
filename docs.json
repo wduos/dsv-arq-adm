@@ -26,12 +26,7 @@
         "icon": "layers",
         "expanded": true,
         "pages": [
-          {
-            "group": "DSV",
-            "pages": [
-              "index.mdx"
-            ]
-          }
+          "index.mdx"
         ]
       }
     ]
