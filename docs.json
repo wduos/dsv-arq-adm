@@ -26,7 +26,14 @@
         "icon": "layers",
         "expanded": true,
         "pages": [
-          "index.mdx"
+          "index.mdx",
+          {
+            "group": "Guias",
+            "pages": [
+              "guides/auditoria-diaria",
+              "guides/cancelamento-nf"
+            ]
+          }
         ]
       }
     ]
